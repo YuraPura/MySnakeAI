@@ -43,8 +43,19 @@ export default function getMove(gameState) {
     }
 
     // Улучшение 2 - Защити своего червячка от столкновения со своим телом
-    // myBody = gameState.you.body;
-    // TODO
+    const MyBody = gameState.you.body.slice(1); // пропуск головы
+    for (const segment.x === myHead) {
+        if else (segment.x === myHead.x + 1 && segment.y === myHead.y) {
+
+        } if else (segment.x === myHead.x - 1 && segment.y === myHead.y) {
+
+        } if else (segment.x === myHead.x && segment.y === myHead.y + 1) {
+
+        } if else (segment.x === myHead.x && segment.y === myHead.y - 1) {
+            
+        }
+    }
+
 
     // Улучшение 3 - Защити своего червячка от столкновения с телами соперников 
     // opponents = gameState.board.snakes;
