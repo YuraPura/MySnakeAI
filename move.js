@@ -47,7 +47,8 @@ export default function getMove(gameState) {
     const opponents = gameState.board.snakes.filter(function(snake) {
         return snake.id !== gameState.you.id;
     });
-    
+
+    // Не двигаться назад в своем теле
     if (myNeck.x < myHead.x) {
         isMoveSafe.left = false;
     } else if (myNeck.x > myHead.x) {
@@ -57,7 +58,7 @@ export default function getMove(gameState) {
     } else if (myNeck.y > myHead.y) {
         isMoveSafe.up = false;
     }
-    
+
     // Проверяем границы поля
     if (myHead.x + 1 >= boardWidth) {
         isMoveSafe.right = false;
@@ -87,6 +88,7 @@ export default function getMove(gameState) {
         }
     }
     
+    // Не двигаться в клетку, где уже находится часть своего тела
     if (occupiedCells.has(`${myHead.x + 1},${myHead.y}`)) {
         isMoveSafe.right = false;
     }
@@ -99,12 +101,27 @@ export default function getMove(gameState) {
     if (occupiedCells.has(`${myHead.x},${myHead.y - 1}`)) {
         isMoveSafe.down = false;
     }
-    
+
+    // Запрещаем движение назад
+    if (myNeck.x === myHead.x + 1 && myNeck.y === myHead.y) {
+        isMoveSafe.left = false;
+    } else if (myNeck.x === myHead.x - 1 && myNeck.y === myHead.y) {
+        isMoveSafe.right = false;
+    } else if (myNeck.x === myHead.x && myNeck.y === myHead.y + 1) {
+        isMoveSafe.down = false;
+    } else if (myNeck.x === myHead.x && myNeck.y === myHead.y - 1) {
+        isMoveSafe.up = false;
+    }
+
     let safeMoves = Object.keys(isMoveSafe).filter(function(key) {
         return isMoveSafe[key];
     });
+
     if (safeMoves.length === 0) {
-        return { move: "down" };
+        // В случае патовой ситуации, выбираем лучший возможный ход
+        // Принцип: если не осталось безопасных ходов, змея будет двигаться в сторону, где больше свободного пространства
+        const bestMove = findBestMoveBasedOnSpace(gameState);
+        return { move: bestMove };
     }
 
     const nextMove = safeMoves[Math.floor(Math.random() * safeMoves.length)];
@@ -114,6 +131,7 @@ export default function getMove(gameState) {
     let bestScore = -Infinity;
     let bestMove = nextMove; // Устанавливаем случайный ход как начальный лучший
 
+    // Оценка возможных ходов на основе свободного пространства
     for (let i = 0; i < safeMoves.length; i++) {
         const move = safeMoves[i];
         
@@ -129,7 +147,8 @@ export default function getMove(gameState) {
         }
         
         let openArea = floodFillCount(newHead.x, newHead.y, occupiedCells, boardWidth, boardHeight);
-        
+
+        // Оценка на основе расстояния до пищи
         let foodDistance = 0;
         if (food.length > 0) {
             let closestFoodDistance = Infinity;
@@ -142,7 +161,8 @@ export default function getMove(gameState) {
             }
             foodDistance = closestFoodDistance;
         }
-        
+
+        // Бонусы/штрафы за возможное столкновение с противниками
         let headToHeadPenalty = 0;
         let headToHeadBonus = 0;
         for (let k = 0; k < opponents.length; k++) {
@@ -157,19 +177,47 @@ export default function getMove(gameState) {
                 }
             }
         }
-        
+
+        // Штрафы за нахождение в узких пространствах
         let lowAreaPenalty = 0;
         if (openArea < myLength * 2) {
             lowAreaPenalty = (myLength * 2 - openArea) * 100;
         }
-        
+
+        // Окончательная оценка хода
         let score = openArea - foodDistance - headToHeadPenalty + headToHeadBonus - lowAreaPenalty;
-        
+
         if (score > bestScore) {
             bestScore = score;
             bestMove = move;
         }
     }
-    
+
     return { move: bestMove };
+}
+
+function findBestMoveBasedOnSpace(gameState) {
+    const boardWidth = gameState.board.width;
+    const boardHeight = gameState.board.height;
+    const myHead = gameState.you.head;
+
+    const moves = ['up', 'down', 'left', 'right'];
+    let bestMove = moves[0];
+    let maxSpace = 0;
+
+    for (const move of moves) {
+        let newHead = { ...myHead };
+        if (move === 'up') newHead.y++;
+        if (move === 'down') newHead.y--;
+        if (move === 'left') newHead.x--;
+        if (move === 'right') newHead.x++;
+
+        const space = floodFillCount(newHead.x, newHead.y, new Set(), boardWidth, boardHeight);
+        if (space > maxSpace) {
+            maxSpace = space;
+            bestMove = move;
+        }
+    }
+    
+    return bestMove;
 }
