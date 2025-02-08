@@ -106,12 +106,14 @@ export default function getMove(gameState) {
     if (safeMoves.length === 0) {
         return { move: "down" };
     }
-    
+
+    const nextMove = safeMoves[Math.floor(Math.random() * safeMoves.length)];
+
     const myLength = gameState.you.length || myBody.length;
 
     let bestScore = -Infinity;
-    let bestMove = safeMoves[0];
-    
+    let bestMove = nextMove; // Устанавливаем случайный ход как начальный лучший
+
     for (let i = 0; i < safeMoves.length; i++) {
         const move = safeMoves[i];
         
@@ -160,7 +162,6 @@ export default function getMove(gameState) {
         if (openArea < myLength * 2) {
             lowAreaPenalty = (myLength * 2 - openArea) * 100;
         }
-        
         
         let score = openArea - foodDistance - headToHeadPenalty + headToHeadBonus - lowAreaPenalty;
         
