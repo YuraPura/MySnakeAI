@@ -1,0 +1,787 @@
+{
+  "date": "2025-02-08T14:50:55.596Z",
+  "argv": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\tests\\test_survivability.js"
+  ],
+  "execArgv": [
+    "--import=file:///C:/Users/%D0%AE%D1%80%D0%B0/Desktop/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81/ithub-battlesnake-starter-js/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///C:/Users/%D0%AE%D1%80%D0%B0/Desktop/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81/ithub-battlesnake-starter-js/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///C:/Users/%D0%AE%D1%80%D0%B0/Desktop/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81/ithub-battlesnake-starter-js/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///C:/Users/%D0%AE%D1%80%D0%B0/Desktop/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81/ithub-battlesnake-starter-js/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js",
+  "pid": 5504,
+  "ppid": 5368,
+  "parent": null,
+  "uuid": "102ec28f-8d5c-4ce6-ab35-a91beed5b1f8",
+  "files": [
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\tests\\test_survivability.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import-loader.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\import.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\is-relative-require.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\export-line.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\munge-mocks.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\resolve-mock-entry-point.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\service-key.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\call-site-like.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\require-resolve.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-all-conditional-values.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-all-conditions.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-unique-condition-sets.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-all-exports.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-all-local-imports.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-conditional-value.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-import.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\is-windows.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\parse.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-conditional-values-list.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\errors.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-named-exports-list.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\read-pkg.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-export.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\star-glob.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\to-path.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\file-exists.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\find-dep-package.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\to-file-url.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-dependency-export.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-package-import.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\read-json.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\find-star-match.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\walk-up-path\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\glob.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\has-magic.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\ignore.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\assert-valid-pattern.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\ast.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\escape.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\unescape.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\path-scurry\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\pattern.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\walker.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\brace-expressions.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\minipass\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\processor.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\loader.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\hooks.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service-client.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\src\\cli\\run.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap\\dist\\esm\\main.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\tap-file.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\base.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\counts.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\extra-from-error.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\lists.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\main-script.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\minimal.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\normalize-message-extra.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\parse-test-args.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\proc.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\spawn.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\stdin.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\tap-dir.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\test-base.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\test-point.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\waiter.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\worker.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\tap.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\test-built\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\dist\\esm\\default-plugins.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\throw-to-parser.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\async-hook-domain\\dist\\mjs\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\diags.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\message-from-error.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\is-actual-promise\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\trivial-deferred\\dist\\mjs\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\esc.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\implicit-end-sigil.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\after\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\after-each\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\asserts\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\before\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\before-each\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\chdir\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\filter\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\fixture\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\intercept\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\spawn\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stdin\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\typescript\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\worker\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\jackspeak\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\final-results.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\line-type.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\parse-directive.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\plan.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\result.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\statics.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\escape.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\clean-yaml-object.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\child_process.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\process-info-node.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\json-file.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\function-loop\\dist\\mjs\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\asserts\\dist\\esm\\normalize-throws-args.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\fixture\\dist\\esm\\fixture.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-require.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\serialize.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\clean-cwd.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\provider.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\final-plan.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@isaacs\\cliui\\index.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\parse.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\stringify.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\brace-patterns.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\diff\\lib\\index.mjs",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\spawn-opts.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\format.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\has-strict.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match-only.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\has.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match-strict.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match-only-strict.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\same.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\strict.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\styles.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\opt-arg.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\path-arg.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-manual.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-move-remove.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-native.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-posix.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-windows.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\use-native.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\comment.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\on-add.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\print-messages.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\stdio.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-map.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\require.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@isaacs\\cliui\\node_modules\\string-width\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@isaacs\\cliui\\build\\lib\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\strip-ansi\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@isaacs\\cliui\\node_modules\\wrap-ansi\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\types\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\react-element-to-jsx-string.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\platform.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\default-tmp.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\ignore-enoent.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\fs.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\readdir-or-error.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\fix-eperm.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\retry-busy.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\mkdirp-manual.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\mkdirp-native.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\opts-arg.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\path-arg.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\use-native.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\serialize.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\deserialize.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-serialize.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-deserialize.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\messages.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\constants.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-at.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-nested-location.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-message-data.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-point-message-data.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-point-results.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-results.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\ansi-regex\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\ansi-styles\\index.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\types\\date.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\types\\timestamp.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\find-made.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-callsite.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\result-to-error.js",
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\pretty-diff.js"
+  ],
+  "sources": {
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\import.mjs": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\import.mts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\mock-service.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\is-relative-require.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\is-relative-require.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\export-line.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\export-line.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\munge-mocks.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\munge-mocks.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\resolve-mock-entry-point.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\resolve-mock-entry-point.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\service-key.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\service-key.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\call-site-like.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\src\\call-site-like.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\require-resolve.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\src\\require-resolve.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-all-conditional-values.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\get-all-conditional-values.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-all-conditions.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\get-all-conditions.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-unique-condition-sets.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\get-unique-condition-sets.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-all-exports.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-all-exports.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-all-local-imports.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-all-local-imports.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-conditional-value.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-conditional-value.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-import.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-import.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\is-windows.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\is-windows.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\dist\\esm\\parse.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stack\\src\\parse.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-conditional-values-list.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\get-conditional-values-list.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\errors.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\errors.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\get-named-exports-list.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\get-named-exports-list.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\read-pkg.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\read-pkg.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-export.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-export.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\star-glob.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\star-glob.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\to-path.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\to-path.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\file-exists.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\file-exists.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\find-dep-package.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\find-dep-package.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\to-file-url.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\to-file-url.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-dependency-export.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-dependency-export.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\resolve-package-import.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\resolve-package-import.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\read-json.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\read-json.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\dist\\esm\\find-star-match.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\resolve-import\\src\\find-star-match.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\walk-up-path\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\walk-up-path\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\glob.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\glob.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\has-magic.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\has-magic.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\ignore.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\ignore.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\assert-valid-pattern.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\src\\assert-valid-pattern.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\ast.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\src\\ast.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\escape.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\src\\escape.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\unescape.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\src\\unescape.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\path-scurry\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\path-scurry\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\pattern.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\pattern.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\walker.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\walker.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\dist\\esm\\brace-expressions.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\node_modules\\minimatch\\src\\brace-expressions.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\path-scurry\\node_modules\\lru-cache\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\minipass\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\minipass\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\dist\\esm\\processor.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\glob\\src\\processor.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap\\dist\\esm\\main.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap\\src\\main.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\tap-file.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\tap-file.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\base.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\base.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\counts.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\counts.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\extra-from-error.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\extra-from-error.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\lists.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\lists.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\main-script.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\main-script.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\minimal.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\minimal.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\normalize-message-extra.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\normalize-message-extra.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\parse-test-args.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\parse-test-args.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\proc.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\proc.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\spawn.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\spawn.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\stdin.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\stdin.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\tap-dir.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\tap-dir.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\test-base.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\test-base.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\test-point.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\test-point.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\waiter.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\waiter.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\worker.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\worker.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\tap.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\tap.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\test-built\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\test-built\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\dist\\esm\\default-plugins.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\test\\src\\default-plugins.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\throw-to-parser.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\throw-to-parser.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\async-hook-domain\\dist\\mjs\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\async-hook-domain\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\diags.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\diags.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\message-from-error.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\message-from-error.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\is-actual-promise\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\is-actual-promise\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\trivial-deferred\\dist\\mjs\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\trivial-deferred\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\esc.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\esc.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\implicit-end-sigil.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\implicit-end-sigil.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\after\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\after\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\after-each\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\after-each\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\asserts\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\asserts\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\before\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\before\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\before-each\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\before-each\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\chdir\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\chdir\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\filter\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\filter\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\fixture\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\fixture\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\intercept\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\intercept\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\spawn\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\spawn\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stdin\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\stdin\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\typescript\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\typescript\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\worker\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\worker\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\jackspeak\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\jackspeak\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\final-results.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\final-results.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\line-type.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\line-type.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\parse-directive.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\parse-directive.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\plan.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\plan.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\result.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\result.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\statics.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\statics.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\escape.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\escape.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\dist\\esm\\clean-yaml-object.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\core\\src\\clean-yaml-object.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\child_process.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\src\\child_process.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\process-info-node.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\src\\process-info-node.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\json-file.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\src\\json-file.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\function-loop\\dist\\mjs\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\function-loop\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\asserts\\dist\\esm\\normalize-throws-args.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\asserts\\src\\normalize-throws-args.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\fixture\\dist\\esm\\fixture.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\fixture\\src\\fixture.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-require.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\mock\\src\\mock-require.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\serialize.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\serialize.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\clean-cwd.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\src\\clean-cwd.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\provider.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\src\\provider.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\final-plan.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\final-plan.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\parse.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\src\\parse.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\stringify.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\src\\stringify.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\dist\\esm\\brace-patterns.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-parser\\src\\brace-patterns.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\dist\\esm\\spawn-opts.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\processinfo\\src\\spawn-opts.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\format.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\format.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\has-strict.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\has-strict.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match-only.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\match-only.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\has.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\has.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match-strict.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\match-strict.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match-only-strict.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\match-only-strict.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\match.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\match.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\same.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\same.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\strict.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\strict.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\styles.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\styles.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\opt-arg.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\opt-arg.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\path-arg.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\path-arg.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-manual.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\rimraf-manual.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-move-remove.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\rimraf-move-remove.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-native.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\rimraf-native.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-posix.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\rimraf-posix.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\rimraf-windows.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\rimraf-windows.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\use-native.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\use-native.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\comment.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\comment.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\on-add.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\on-add.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\print-messages.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\print-messages.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\stdio.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\stdio.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-map.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\test-map.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\dist\\esm\\require.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\snapshot\\src\\require.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\types\\index.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\src\\types\\index.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\dist\\esm\\react-element-to-jsx-string.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tcompare\\src\\react-element-to-jsx-string.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\platform.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\platform.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\default-tmp.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\default-tmp.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\ignore-enoent.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\ignore-enoent.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\fs.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\fs.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\readdir-or-error.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\readdir-or-error.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\fix-eperm.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\fix-eperm.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\dist\\esm\\retry-busy.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\rimraf\\src\\retry-busy.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\mkdirp-manual.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\mkdirp-manual.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\mkdirp-native.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\mkdirp-native.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\opts-arg.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\opts-arg.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\path-arg.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\path-arg.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\use-native.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\use-native.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\serialize.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\serialize.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\deserialize.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\deserialize.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-serialize.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\test-stream-serialize.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\test-stream-deserialize.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\test-stream-deserialize.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\messages.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\messages.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\dist\\esm\\constants.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\error-serdes\\src\\constants.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-at.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\loc-from-at.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-nested-location.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\test-nested-location.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-message-data.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\test-message-data.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-point-message-data.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\test-point-message-data.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-point-results.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\test-point-results.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\test-results.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\test-results.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\types\\date.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\src\\types\\date.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\dist\\esm\\types\\timestamp.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\tap-yaml\\src\\types\\timestamp.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\dist\\mjs\\find-made.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\mkdirp\\src\\find-made.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\loc-from-callsite.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\loc-from-callsite.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\result-to-error.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\result-to-error.ts"
+    ],
+    "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\dist\\esm\\pretty-diff.js": [
+      "C:\\Users\\Юра\\Desktop\\Мастер Класс\\ithub-battlesnake-starter-js\\node_modules\\@tapjs\\node-serialize\\src\\pretty-diff.ts"
+    ]
+  },
+  "root": "102ec28f-8d5c-4ce6-ab35-a91beed5b1f8",
+  "externalID": "tests/test_survivability.js",
+  "code": 0,
+  "signal": null,
+  "runtime": 4205.7955
+}

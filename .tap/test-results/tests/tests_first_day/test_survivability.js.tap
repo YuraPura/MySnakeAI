@@ -1,0 +1,7 @@
+TAP version 14
+# Subtest: must survive at least 20 turns
+    not ok 1 - should be equal
+    1..1
+not ok 1 - must survive at least 20 turns # time=472.165ms
+
+1..1

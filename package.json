@@ -1,0 +1,22 @@
+{
+    "name": "ithub-battlesnake-starter-js",
+    "version": "1.0.0",
+    "description": "Battlesnake template written in JavaScript",
+    "type": "module",
+    "main": "./src/index.js",
+    "scripts": {
+        "bots": "node ./src/bots/index.js",
+        "cli:solo": "cross-env PORT=4000 HOST=localhost node ./src/cli/index.js",
+        "cli:bots": "cross-env PORT=4000 HOST=localhost node ./src/cli/index.js --with-bots",
+        "test": "tap run ./tests --disable-coverage --no-diag --passes"
+    },
+    "dependencies": {
+        "@types/node": "^18.19.33",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^3.1.7",
+        "tap": "^21.0.1"
+    }
+}
