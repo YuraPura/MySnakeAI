@@ -1,9 +1,5 @@
 export default function getMove(gameState) {
-    /* 
-    ** Вызывается каждый ход и должна возвращать одно
-    ** из значений: "up", "down", "left" или "right"
-    */
-    // Для поиска хавчика
+
     function floodFillCount(startX, startY, obstacles, boardWidth, boardHeight) {
         let count = 0;
         let queue = [[startX, startY]];
@@ -31,7 +27,7 @@ export default function getMove(gameState) {
                 queue.push([nx, ny]);
             }
         }
-        return count;
+        return count; 
     }
 
     const isMoveSafe = {
@@ -62,7 +58,7 @@ export default function getMove(gameState) {
         isMoveSafe.up = false;
     }
     
-    // pr gran polia
+    // Проверяем границы поля
     if (myHead.x + 1 >= boardWidth) {
         isMoveSafe.right = false;
     }
@@ -76,7 +72,6 @@ export default function getMove(gameState) {
         isMoveSafe.down = false;
     }
     
-    // podshet cletoc kotorie mi zanemaem
     const occupiedCells = new Set();
     const bodyWithoutHead = myBody.slice(1);
     for (let i = 0; i < bodyWithoutHead.length; i++) {
@@ -84,7 +79,6 @@ export default function getMove(gameState) {
         occupiedCells.add(`${segment.x},${segment.y}`);
     }
     
-    // vich protivnika ip
     for (let i = 0; i < opponents.length; i++) {
         const snake = opponents[i];
         for (let j = 0; j < snake.body.length; j++) {
@@ -93,7 +87,6 @@ export default function getMove(gameState) {
         }
     }
     
-    // proverka na stolknov s telami vs
     if (occupiedCells.has(`${myHead.x + 1},${myHead.y}`)) {
         isMoveSafe.right = false;
     }
@@ -107,28 +100,21 @@ export default function getMove(gameState) {
         isMoveSafe.down = false;
     }
     
-    // spisok hodov
     let safeMoves = Object.keys(isMoveSafe).filter(function(key) {
         return isMoveSafe[key];
     });
     if (safeMoves.length === 0) {
-        return { move: "down" }; // Если нет безопасных ходов, идём вниз
+        return { move: "down" };
     }
     
-    // my dlina
     const myLength = gameState.you.length || myBody.length;
-    
-    // Штраф будет применён при расчёте итогового счета для данного хода.
-    // Добавил дебаф к ходу, который може привести к столкнавению с сильным противником
-    // это должно быть учтено при подщете хода
-    // Итог будет = openArea - foodDistance - headToHeadPenalty
 
     let bestScore = -Infinity;
     let bestMove = safeMoves[0];
     
     for (let i = 0; i < safeMoves.length; i++) {
         const move = safeMoves[i];
-        // polozhenie golovi posle hoda
+        
         let newHead = { x: myHead.x, y: myHead.y };
         if (move === "up") {
             newHead.y = newHead.y + 1;
@@ -140,10 +126,8 @@ export default function getMove(gameState) {
             newHead.x = newHead.x + 1;
         }
         
-        // Оцениваем количество свободного пространства из новой позиции
         let openArea = floodFillCount(newHead.x, newHead.y, occupiedCells, boardWidth, boardHeight);
         
-        // Определяем расстояние до ближайшей еды
         let foodDistance = 0;
         if (food.length > 0) {
             let closestFoodDistance = Infinity;
@@ -156,21 +140,29 @@ export default function getMove(gameState) {
             }
             foodDistance = closestFoodDistance;
         }
-
+        
         let headToHeadPenalty = 0;
+        let headToHeadBonus = 0;
         for (let k = 0; k < opponents.length; k++) {
             const opponent = opponents[k];
             const opponentLength = opponent.length || opponent.body.length;
-
             let oppDistance = Math.abs(newHead.x - opponent.head.x) + Math.abs(newHead.y - opponent.head.y);
             if (oppDistance <= 1) {
                 if (opponentLength >= myLength) {
                     headToHeadPenalty = headToHeadPenalty + 1000;
+                } else {
+                    headToHeadBonus = headToHeadBonus + 1000;
                 }
             }
         }
         
-        let score = openArea - foodDistance - headToHeadPenalty;
+        let lowAreaPenalty = 0;
+        if (openArea < myLength * 2) {
+            lowAreaPenalty = (myLength * 2 - openArea) * 100;
+        }
+        
+        
+        let score = openArea - foodDistance - headToHeadPenalty + headToHeadBonus - lowAreaPenalty;
         
         if (score > bestScore) {
             bestScore = score;
